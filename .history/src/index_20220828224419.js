@@ -37,7 +37,5 @@ module.exports = function reverse (n) {
             result = result + numberToString[i];
         }
     }
-
-    // convert string in number again
     return Number(result);
 }
